@@ -1,0 +1,130 @@
+body {
+     margin: 0 auto;
+     overflow: hidden;
+
+     color: #e6ffff;
+     font-family: Arial, Helvetica, sans-serif;
+}
+
+.status {
+     position: absolute;
+
+     width: 100%;
+     height: 40px;
+     display: flex;
+     align-items: center;
+     justify-content: left;
+     flex-direction: row;
+
+     gap: 40px;
+     background-color: #3399ff;
+
+     font-size: 18px;
+     padding: 10px;
+     font-weight: bold;
+}
+.timer {
+     position: absolute;
+     width: 100%;
+     height: 40px;
+     display: flex;
+     align-items: center;
+     flex-direction: row-reverse;
+     font-size: 18px;
+     font-weight: bold;
+     right: 20px;
+}
+
+.holder {
+     position: absolute;
+     width: 100%;
+     height: 100%;
+
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+}
+
+#login-errors {
+     font-size: 12px;
+     height: 10px;
+     font-weight: bold;
+     color: red;
+}
+
+.login {
+     z-index: 5;
+     padding: 10px;
+     background-color: #3399ff;
+     border-radius: 20px;
+
+     width: 260px;
+
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+
+     gap: 10px;
+}
+
+.login-input {
+     border: 5px solid #e6f2ff;
+     border-radius: 10px;
+     font-size: 18px;
+}
+
+.btn {
+     border: 5px solid #e6f2ff;
+     color: #0056b3;
+     border-radius: 10px;
+     width: 80%;
+     font-size: 24px;
+}
+
+.display {
+     z-index: 1;
+     font-size: 32px;
+     font-weight: bold;
+}
+
+.debug {
+     position: absolute;
+     width: auto;
+     height: auto;
+     font-size: 24px;
+     background-color: #3399ff;
+     border-radius: 10px;
+     margin: 10px;
+     padding: 10px;
+     left: 10px;
+     bottom: 10px;
+     opacity: 0.75;
+     color: lightgray;
+}
+
+.white {
+     color: white;
+}
+
+.black {
+     color: red;
+}
+.hidden {
+     display: none !important;
+}
+#endGameScreen {
+     font-weight: bolder;
+     text-align: center;
+     font-size: 120px;
+     color: brown;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     z-index: 1000000;
+     position: absolute;
+     width: 100vw;
+     height: 100vh;
+     background-color: rgba(120, 120, 120, 0.8);
+}
