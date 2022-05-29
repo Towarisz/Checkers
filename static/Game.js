@@ -7,7 +7,7 @@ class Game {
           this.scene = new THREE.Scene();
           this.camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.1, 10000);
           this.renderer = new THREE.WebGLRenderer();
-          this.renderer.setClearColor(0x29293d);
+          this.renderer.setClearColor(0x16501c);
           this.renderer.setSize(window.innerWidth, window.innerHeight);
 
           this.raycaster = new THREE.Raycaster();

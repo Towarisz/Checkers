@@ -2,7 +2,7 @@ body {
      margin: 0 auto;
      overflow: hidden;
 
-     color: #e6ffff;
+     color: black;
      font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -17,7 +17,7 @@ body {
      flex-direction: row;
 
      gap: 40px;
-     background-color: #3399ff;
+     background-color: #00ff80;
 
      font-size: 18px;
      padding: 10px;
@@ -55,18 +55,15 @@ body {
 
 .login {
      z-index: 5;
-     padding: 10px;
-     background-color: #3399ff;
-     border-radius: 20px;
-
-     width: 260px;
-
+     padding: 25px;
+     background-color: #00ff80;
+     border-radius: 40px;
+     width: 475px;
      display: flex;
      align-items: center;
      justify-content: center;
      flex-direction: column;
-
-     gap: 10px;
+     gap: 15px;
 }
 
 .login-input {
@@ -94,7 +91,7 @@ body {
      width: auto;
      height: auto;
      font-size: 24px;
-     background-color: #3399ff;
+     background-color: #00ff80;
      border-radius: 10px;
      margin: 10px;
      padding: 10px;
